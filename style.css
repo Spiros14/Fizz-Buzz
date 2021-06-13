@@ -74,7 +74,8 @@ body {
   }
 
   .rev-style label > span {
-    width: 200px;
+    /*width: 200px;*/
+    width: 290px;
     font-weight: bold;
     float: left;
     padding-top: 0px;
@@ -138,16 +139,9 @@ body {
      -moz-border-radius: 3px;
  }
 
- .rev-style #buzzit:hover {
-    background: #EA7B00;
-     color: #fff;
-}
-
- /*.rev-style input[type=submit]:hover,
- .rev-style input[type=button]:hover {
-     background: #EA7B00;
-     color: #fff;
- }*/
+ .rev-style #buzzIt {
+    width: 110px;
+ }
 
  .rev-style #buzzIt:hover {
      cursor: pointer;
@@ -156,7 +150,7 @@ body {
  }
 
  .rev-style #resetTemplate {
-     width: 75px;
+     width: 110px;
  }
 
  .rev-style #resetTemplate:hover {

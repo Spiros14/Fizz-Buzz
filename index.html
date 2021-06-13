@@ -12,20 +12,23 @@
     <img id="fizzImg" src="Photos/Fizz_Buzz.png" class="responsive">
     <div class="rev-style">
         <div class="rev-style-headingB">
-              Write a programm that prints the numbers from 1 to 100. But for multipled of three print "Fizz"
-              instead og the number and for the multipled of the print "Buzz". For numbers which are multipled
-              of both three and five print "FizzBuzz". 
-              </div>
-              <hr>
+            Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz"
+            instead of the number and for the multiples of five print "Buzz". For numbers which are multiples
+             of both three and five print "FizzBuzz".
+            </div>
+              
    
         <label><span>Enter a number: </span><input id="Fizzvalue" type="number" name="fizz" value="3"></label>
         <label><span>Enter another number: </span><input id="Buzzvalue" type="number" name="buzz" value="5"></label>       
-        <input type="submit" id="buzzIt" value = "Buzz it" onclick="buzzItTemplate()">
-        <input type="submit" id="resetTemplate" value="Reset" onclick="buzzItTemplateReset()">
-        <!-- <label><span></span><input type="submit" id="buzzit" value="Buzz it" onclick="buzzItTemplate()">&nbsp;<span></span><input type="submit" id="resetTemplate" value=" Reset " onclick="buzzItTemplateReset()"> </label> --> 
+        <input type="button" id="buzzIt" value ="Buzz it" onclick="buzzItTemplate()">
+        <input type="button" id="resetTemplate" value="Reset" onclick="buzzItTemplateReset()">
+        <br>
+        <br>
+        <label><span>Results:</span></label><br>
+        
         <div style = "overflow-x: auto;">
         <table id="results">
-            <!--Generated reruslts go here-->
+        <!--Generated reruslts go here-->
         </table>
         </div>
     </div>  

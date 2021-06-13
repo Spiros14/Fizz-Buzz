@@ -1,4 +1,4 @@
-function FizzBuzzD(value1,value2) {
+function FizzBuzz(value1,value2) {
     let returnArray = [];
     for(let i=1; i<=100; i++) {
         returnArray[i] = ((i%value1==0 ? 'Fizz' : '') + (i%value2==0 ? 'Buzz' : '') || i);
@@ -20,7 +20,7 @@ function buzzItTemplate() {
     let val2 = document.getElementById("Buzzvalue").value;
 
     //Call the fizzbuzz function
-    output = FizzBuzzD(val1,val2);
+    output = FizzBuzz(val1,val2);
     for(i=1; i<output.length; i+=5) {
         resultsHTML += templateHTML.replace('{{val1}}', output[i])
                                 .replace('{{val2}}',output[i+1])
@@ -35,5 +35,4 @@ function buzzItTemplateReset() {
     document.getElementById('Fizzvalue').value = 0;
     document.getElementById("Buzzvalue").value = 0;
     document.getElementById('results').innerHTML = "";
-
 }
